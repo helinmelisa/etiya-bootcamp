@@ -45,3 +45,14 @@ let total = { totalPrice: 0, totalProductCount: 0};
         total.totalProductCount += cart.quantity;
     });
 console.log(total);
+
+//body eklenirse return olmalı
+let cartTotal = cart.reduce(
+    (acc,cartItem) => acc + cartItem.quantity * cartItem.unitPrice,
+    0,
+);
+let quantityTotal = cart.reduce(
+    (acc,cartItem) => acc + cartItem.quantity,
+    0,
+);
+console.log(`Sepet toplam tutar: ${cartTotal} Toplam ürün: ${quantityTotal}`);
