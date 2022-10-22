@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node products.js"
+    "start": "node destructuring.js",
+    "start-restAndSpread": "node restAndSpread.js",
+    "start-destructuring": "node destructuring.js",
+    "start-oop": "node oop.js",
+    "start-oop2": "node oop2.js"
   },
   "keywords": [],
   "author": "",
