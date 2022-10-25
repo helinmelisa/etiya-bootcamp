@@ -63,6 +63,3 @@ console.log(productService.getAll());
 productService.update(2,{id:8, name:"desktop++", price:150, category:{id:"kategori1", name: "teknoloji", desc: "elektronik"}});
 console.log("**********");
 console.log(productService.getAll());
-
-
-

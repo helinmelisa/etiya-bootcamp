@@ -17,7 +17,6 @@ class Service{
             }
         }
     }
-
     delete(id: number) {
         this.items = this.items.filter(product => !(product.id == id)); 
     }

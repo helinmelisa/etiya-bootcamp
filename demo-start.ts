@@ -39,9 +39,6 @@ greeter.sayHi();
 // string name alan bir ekleme methodu
 // classin içinde bir alanda array ile tutalım. Ancak bu arraya dışardan erişim yasak!!
 
-
-
-
 class UserService {
     private users: User[] = [];
     
